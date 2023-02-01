@@ -9,10 +9,10 @@ DESCRIPTION DES DEPENDANCES :
 ETAPE 13 :
 - La partie du code qui permet de paramétrer l'URL d'appel /greeting est 
 définie dans la définition de la route  correspondant au contrôleur. 
-Il peut s'agir d'une définition de route spécifique utilisant un framework de routing 
+Il s'agit d'une définition de route spécifique utilisant un framework de routing 
 ou d'une définition de route dans un fichier de configuration de l'application.
 - La partie du code qui permet de choisir le fichier HTML à afficher est  liée à la logique de rendu 
-de la vue. Il peut s'agir d'une fonction de rendu spécifique utilisant un moteur de template ou d'une 
+de la vue. Il s'agit d'une fonction de rendu spécifique utilisant un moteur de template ou d'une 
 fonction qui renvoie une réponse HTTP avec le contenu HTML.
 - Le nom à qui nous disons bonjour avec le second lien est  envoyé en tant que paramètre de la requête HTTP.
 Il peut être passé directement dans l'URL 

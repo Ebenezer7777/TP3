@@ -17,7 +17,32 @@ public class Address {
     private String nomAuteur;
     private String content;
 
+    public Address(Long id, Date creation, String content) {
+        this.id = id;
+        this.creation = creation;
+        this.content = content;
+    }
 
+    public Address(Long id, Date creation, String content, String nomAuteur) {
+        this.id = id;
+        this.creation = creation;
+        this.content = content;
+        this.nomAuteur = nomAuteur;
+    }
+
+    public Address(Date creation, String content) {
+        this.creation = creation;
+        this.content = content;
+    }
+
+
+    public String getNomAuteur() {
+        return nomAuteur;
+    }
+
+    public void setNomAuteur(String nomAuteur) {
+        this.nomAuteur = nomAuteur;
+    }
     public Long getId() {
         return id;
     }
